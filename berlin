@@ -12,7 +12,7 @@
 <body>  
      <div class="topspace">
       <ul>
-      <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="https://png.icons8.com/dusk/50/000000/cat.png"</a>
+      <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="iconflag.png"</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
