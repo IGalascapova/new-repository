@@ -12,6 +12,10 @@
 <body>  
      <div class="topspace">
       <ul>
+      <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="https://png.icons8.com/dusk/50/000000/cat.png"</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         <li id="home"> <a href="index.html">Home</a></li>
         <li><a href="#about">About Us</a></li>
         <li><a href="Nightlife.html">Nightlife</a></li>
