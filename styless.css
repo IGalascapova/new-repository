@@ -28,12 +28,15 @@ ul .topspace {
    text-decoration: underline;
  }
 
+
 #carouselExampleFade {
   margin: 0 auto;
-  padding: 30px;
-  width: 70%;
+  padding: 90px;
+  width: 75%;
+  length: 100%;
   float: center;
   text-align: center;
+   
     /*top: 10%;
     left: 40%;
     transform: translate(-40%, -10%);*/
