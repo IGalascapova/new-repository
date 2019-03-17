@@ -30,22 +30,91 @@ li {
    font-family: 'Fredericka the Great', cursive;
    text-align: center;
     font-size: 68px;
-    color: black;
+    color: white;
     padding-top: 10px;
  }
 
 #carouselExampleFade {
   padding: 30px;
-  width: 80%;
-  length: 100%;
+  width: 100%;
   float: center;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 50px;
 }
+.carousel-inner h6 {
+  background: rgba(0, 0, 0, 0.5);
+  float: center;
+  border-radius: 20px;
+  padding: 20px 40px 20px 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  text-align: center;
+  }
 
-.container {
-    background: rgba(32, 190, 242, 0.7);
+h2 {
+  text-align: center;
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 40px;
+}
+h4 {
+      font-size: 25px;
+      padding-bottom: 5px;
+      text-align: center
+      color: white;
+    }
+
+  .AboutUs h3 {
+         font-size: 20px;
+    }
+
+  .AboutUs p {
+           padding-left: 5%;
+           padding-right: 5%;
+           font-size: 18px;
+        }
+
+  .AboutUs img {
+    height: 300px;
+    margin: 5px;
+    width: 35%;
+  }
+
+.person1 {
+    text-align: center;
+  }
+.person2 {
+    text-align: center;
+  }
+.AboutUs h3 {
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 24px;
+   }
+.AboutUs p {
+  text-align: center;
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 24px;
+}
+
+.AboutUs {
+              border-top: solid black 0.5px;
+              border-bottom: solid black 0.5px;
+              background-size: cover;
+              margin: 0 auto;
+              padding: 20px;
+              width: 70%;
+              height: inherit;
+              background-color: rgba(0, 0, 0, 0.5);
+            }
+
+
+.mycontainer {
+    background: rgba(0, 0, 0, 0.5);
     width: 80%;
     margin: 0 auto;
     margin-top: 20px;
@@ -56,29 +125,28 @@ li {
     text-align: left;
     line-height: 30px;
   }
+
 .intro {
     color: white;
+
   }
 label {
     color: white;
   }
 
-.footer .fa {
-    margin: 10px;
+.col .fa {
+    margin: 15px;
     text-align: center;
     padding: 5px;
-    font-size: 32px;
-    width: 50px;
+    font-size: 40px;
+    width: 60px;
     border-radius: 20%;
     color: rgba(255, 255, 255, 1);
     border: solid 2px rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 0px;
 }
-
-
-
-
-
-  @media (max-width: 500px) {
+@media (max-width: 500px) {
      body {
        background: red;
      }
@@ -90,4 +158,21 @@ label {
        padding: 5px;
      }
    }
-h4{color: green;}
+
+img.rounded-circle {
+  padding: 3px;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+ h4 {
+   font-family: 'Courier New', Courier, monospace;
+   text-align: left;
+   color: black;
+
+}
+h5 {
+  background: rgba(0, 0, 0, 0.5);
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
